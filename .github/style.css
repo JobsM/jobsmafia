@@ -1,0 +1,33 @@
+ body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+        h1 {
+            color: #FFD700;
+        }
+        a {
+            display: block;
+            margin: 20px auto;
+            padding: 15px;
+            width: 80%;
+            max-width: 300px;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        a:hover {
+            background-color: #FFA500;
+            transform: scale(1.05);
+        }
+
+        #logo-group {
+            width: 185px;
+            height: 185px;
+            border-radius: 30%;
+        }
